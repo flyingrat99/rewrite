@@ -1,0 +1,11 @@
+name = "urlrewrite"
+main = "src/worker.js"
+compatibility_date = "2024-04-16"
+
+# Custom domain configuration
+routes = [
+  { pattern = "rewrite.flerken.co.nz", custom_domain = true }
+]
+
+[build]
+command = "" 

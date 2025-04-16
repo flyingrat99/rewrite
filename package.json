@@ -1,0 +1,17 @@
+{
+  "name": "rewrite",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "typescript": "^5.0.4",
+    "wrangler": "^4.11.1"
+  },
+  "type": "module"
+} 
